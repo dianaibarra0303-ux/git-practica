@@ -1,0 +1,21 @@
+body{
+background: #16222A;  
+background: -webkit-linear-gradient(to right, #3A6073, #16222A);  
+background: linear-gradient(to right, #3A6073, #16222A); 
+font-size: larger;
+padding: 20px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.carta{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: #fff;
+    flex: 1;
+    transition: .3 all ease;
+    font-size: x-large;
+}
